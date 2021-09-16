@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --cinebar: #ef3e36;
+  --max-blue-green: #17bebb;
+  --raisin-black: #2e282a;
+  --mac-n-cheese: #edb88b;
+  --pale-pink: #fad8d6;
+  --middle-grey: #837e79;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  margin: 0;
+}
+section {
+  position: relative;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  border-bottom: 2px solid white;
+}
+#app {
+  background: var(--cinebar);
+  height: 100vh;
+  width: 100vw;
+}
+abbr {
+  text-decoration: none;
+}
+.Header__hero {
+  background: #2e282a;
+  color: white;
+  padding: 1em;
+}
+.Header__hero_nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.spacer {
+  height: 5em;
+  background-image: url("assets/waves.svg");
+}
+
+/* Section */
+
+.section {
+  padding: 1em;
+  color: #fefefe;
+  display: flex;
+  justify-content: space-around;
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section__about_content {
+  margin-top: 0.5em;
+  width: 20em;
+}
+.profile_img-container {
+  width: min-content;
+  justify-self: flex-end;
+}
+.profile-img {
+  clip-path: circle();
+  width: 20em;
+}
